@@ -1,24 +1,26 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <Navbar />
+      <h1>Homepage</h1>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industrys standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi
+        impedit suscipit architecto, odio inventore nostrum non neque dicta.
+        Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem
+        nobis odit.
       </p>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industrys standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi
+        impedit suscipit architecto, odio inventore nostrum non neque dicta.
+        Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem
+        nobis odit.
       </p>
+      <Footer />
     </div>
   );
 }
